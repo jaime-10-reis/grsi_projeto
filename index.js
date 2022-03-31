@@ -20,5 +20,7 @@ app.get('/', (request,response) =>{
 
 const port = 3000;      //porta do localhost "localhost:3000"
 
-app.listen(port);       //vai buscar a constante "const port"
+app.listen(port, () => {
+    console.log('App listening on port: '  + port); //vai buscar a constante "const port"
+});       
 

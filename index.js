@@ -18,7 +18,7 @@ app.get('/', (request,response) =>{
     response.sendFile(path.join(_dirname,('./public/index.html')))
 })
 
-const port = 3000;      //porta do localhost "localhost:3000"
+const port = 1234;      //porta do localhost "localhost:1234"
 
 app.listen(port, () => {
     console.log('App listening on port: '  + port); //vai buscar a constante "const port"
